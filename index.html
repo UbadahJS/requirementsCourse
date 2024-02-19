@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Project Website</title>
+    <title>Team Project Website</title> <!-- FIXME: add actual title -->
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <style>
+        .table-container {
+            padding: 100px; /* Adjusts padding around the table */
+        }
+    </style>
 </head>
-
 <body>
     <header>
-        <h1>Welcome to Our Team Project Website</h1>
+        <h2>Welcome to Our Team Project Website</h2> <!-- FIXME: change prompt title -->
     </header>
-    <main>
-        <p>Docs to be placed here i think?</p>
-    </main>
+    <div class="table-container"> <!-- Table container with padding -->
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Page</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Project Plan</td>
+                    <td>Explain here..</td>
+                    <td>Not Finished</td>
+                    <td><a href="projectPlanning.html">Click Here</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
-
 </html>
